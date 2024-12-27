@@ -20,3 +20,8 @@ print("isEmpty: ", isEmpty)
 
 # Size
 print("Size: ",len(stack))
+# Push:adds a new element on the stack.
+# pop:removes and return the top element from the stack
+# peek:returns the top element on the stack
+# isempty:checks if the stack is empty
+# size:finds the number of elements in the stack
