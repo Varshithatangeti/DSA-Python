@@ -20,7 +20,7 @@
 class Solution:
 	def addBinary(self, s1, s2):
 		    result = bin(int(s1, 2) + int(s2, 2))[2:]
-            return result
+    return result
 # This code defines a function called add_binary, which takes two binary strings, s1 and s2, as input and returns their sum as a binary string. Here’s a concise explanation of each part:
 
 # Function Definition:
