@@ -5,7 +5,7 @@ queue.append('B')
 queue.append('C')
 queue.append('D')
 print("Queue:",queue)
-
+# Tough to learn
 dequeue=queue.pop(0)
 print("dequeue:",dequeue)
 
