@@ -5,7 +5,7 @@ stack.append('B')
 stack.append('C')
 stack.append('D')
 print("stack",stack)
-
+# this is a comment
 # POP
 element=stack.pop()
 print("Pop: ", element)
