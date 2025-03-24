@@ -21,5 +21,10 @@ def setZeroes(matrix):
         for j in range(n):
             if row[i] == 1 or col[j] == 1:
                 matrix[i][j] = 0  # Set element to zero
+    
+    # Print the modified matrix
+    for row in matrix:
+        print(row)
 
-print(setZeroes([1,0,1][0,1,0][0,1,1]))
+# ✅ Correct function call
+print(setZeroes([[1, 0, 1], [0, 1, 0], [0, 1, 1]]))
