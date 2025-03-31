@@ -25,3 +25,6 @@ class Solution:
 
         # Step 5: Return the final list with evens first, then odds
         return res
+nums = [11, 2, 7, 14, 3, 8, 6]
+print(solution.sortArrayByParity(nums))
+# Output: [2, 6, 8, 14, 3, 7, 11]

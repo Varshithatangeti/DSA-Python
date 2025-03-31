@@ -13,3 +13,12 @@ class Solution:
         
         # Return the sorted version of the transformed array
         return sorted(nums)
+# The given code defines a class Solution with a method transformArray that modifies a list of integers based on the following rules:
+
+# Even numbers are replaced with 0.
+
+# Odd numbers are replaced with 1.
+
+# The modified list is then sorted and returned.
+
+# This ensures that all 0s appear before 1s in the final output.

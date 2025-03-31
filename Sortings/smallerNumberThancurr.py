@@ -17,3 +17,21 @@ def smallerNumbersThanCurrent(nums):
 # Example usage
 nums = [8, 1, 2, 2, 3]
 print(smallerNumbersThanCurrent(nums))  # Output: [4, 0, 1, 1, 3]
+# Description of the Code:
+# The function smallerNumbersThanCurrent(nums) determines how many numbers in the list are smaller than each element.
+
+# Step-by-Step Explanation:
+# Create an empty list result to store the count of smaller numbers for each element.
+
+# Loop through each element (num) in nums:
+
+# Initialize a counter count = 0 to track how many numbers are smaller than num.
+
+# Compare num with every other element (other) in nums:
+
+# If other is smaller than num, increase count by 1.
+
+# Store count in the result list.
+
+# Return result as the final output.
+
