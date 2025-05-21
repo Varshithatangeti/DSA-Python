@@ -6,5 +6,4 @@ def small(arr):
         res = abs(arr[i] - arr[i+1])
         differences.append(res)
     return max(differences)
-
 print(small([3, 2, 1, 9]))  # Output: 8
