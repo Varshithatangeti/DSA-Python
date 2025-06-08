@@ -27,7 +27,7 @@
 # -109 <= target <= 109
 
 class Solution:
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+    def searchMatrix(matrix,target) -> bool:
         n = len(matrix)          # Number of rows
         m = len(matrix[0])       # Number of columns
 
