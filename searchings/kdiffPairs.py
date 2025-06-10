@@ -8,3 +8,4 @@ def kdiffPairs(nums, k):
     return len(result)
 
 print(kdiffPairs([3, 1, 4, 1, 5], 2))  # fixed
+
