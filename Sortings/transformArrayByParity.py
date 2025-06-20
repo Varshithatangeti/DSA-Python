@@ -1,18 +1,19 @@
 from typing import List
 
-class Solution:
-    def transformArray(self, nums: List[int]) -> List[int]:
+
+def transformArray(nums):
         # Iterate through the list and modify elements
-        for i in range(len(nums)):
+    for i in range(len(nums)):
             # If the number is even, replace it with 0
-            if nums[i] % 2 == 0:
-                nums[i] = 0
+        if nums[i] % 2 == 0:
+            nums[i] = 0
             # If the number is odd, replace it with 1
-            else:
-                nums[i] = 1
+        else:
+            nums[i] = 1
         
         # Return the sorted version of the transformed array
-        return sorted(nums)
+    return sorted(nums)
+print(transformArray([2,3,4,5,6]))
 # The given code defines a class Solution with a method transformArray that modifies a list of integers based on the following rules:
 
 # Even numbers are replaced with 0.
