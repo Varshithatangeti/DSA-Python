@@ -4,4 +4,4 @@ def reverese(s):
     for char in s:
         reversed_words.append(char[::-1])
     return " ".join(reversed_words)
-print(reverese(" 'Let's take LeetCode contest' "))
+print(reverese(" 'Let's take LeetCode contest' "))    
