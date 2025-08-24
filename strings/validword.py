@@ -14,4 +14,3 @@ def valid_word(string):
     return has_vowels and has_consonants
 print(valid_word("b3"))
 print(valid_word("234Adas"))
-
