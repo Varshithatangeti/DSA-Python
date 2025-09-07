@@ -77,7 +77,15 @@ while temp.next is not None:
     previous=previous.next
 previous.next=None
 
-
+'deleting at specific position'
+temp=L.head.next
+previous=L.head
+Position=3
+for i in range(1,Position-1):
+    temp=temp.next
+    previous=previous.next
+previous.next=temp.next
+temp.next=None
 
 temp=L.head
 if temp is None:
